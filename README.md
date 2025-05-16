@@ -1,26 +1,91 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
-## Problem Title
-SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
-## Problem Description
-Background: Railway stations are complex environments with numerous facilities and locations such as ticket counters, platforms, restrooms, food courts, and waiting areas. Passengers often face difficulties in navigating these spaces, especially in large or unfamiliar stations. Efficient and user-friendly navigation systems are crucial for improving passenger experience, reducing congestion, and ensuring timely travel connections. Description: The problem involves developing a comprehensive navigation solution for railway stations that assists passengers in locating various facilities and destinations within the station premises. This includes creating detailed maps, providing real-time directions, and integrating features such as accessibility options for individuals with disabilities. The solution should be intuitive, easy to use, and accessible via multiple platforms, including mobile devices and digital kiosks. Key challenges include updating navigation information in real-time, ensuring accuracy, and accommodating the diverse needs of all passengers. Expected Solution: The expected solution is a multi-platform navigation system that provides detailed, real-time directions to all facilities and locations within a railway station. This system should include: A mobile application with 3D interactive maps and step-by-step navigation. Digital kiosks located throughout the station with touch-screen interfaces. Voice-guided navigation for visually impaired passengers. Regular updates to reflect changes in station layout and facility locations. Integration with existing railway apps and services for seamless user experience. The solution should enhance the overall passenger experience by reducing confusion, saving time, and improving accessibility within the station.
+## Date: 15.05.2025
 
-## Problem Creater's Organization
-Ministry of Railway
+## Register Number: 212222230152
+
+## Name:Suji
+
+## Problem Title:
+AI-Based Smart Surveillance and Women Safety System in Public Transport
+
+## Problem Description:
+Background:
+Incidents of harassment and crime against women in public transport systems (buses, trains, metro) remain a significant concern. Traditional CCTV surveillance is reactive, requiring manual monitoring. There’s a need for an AI-driven, real-time alerting system that enhances safety, enables instant response, and promotes confidence among women passengers.
+
+## Expected Solution:
+A real-time video surveillance system integrated with AI that can detect abnormal or threatening behavior inside public transport vehicles and instantly alert the authorities. The system should be scalable, privacy-compliant, and capable of running on edge devices or with cloud support.
 
 ## Idea
+SafeCommuteAI – A smart safety platform with onboard cameras powered by AI to detect:
 
+Aggressive gestures
+
+Unusual crowd patterns
+
+Unattended objects (for security)
+
+Panic/emergency signals from passengers
+
+## Includes:
+
+Passenger-triggered safety alert buttons
+
+Real-time alerts to control rooms
+
+Live tracking and video stream during alerts
+
+Women-only safety feature activation (voice-commanded SOS)
 
 ## Proposed Solution / Architecture Diagram
+### Solution Features:
+AI-powered cameras in public transport.
 
+Real-time threat detection and behavior analysis.
+
+In-vehicle panic button & mobile app emergency trigger.
+
+Control room alert system with live stream.
+
+Integration with city surveillance systems and police networks.
+
+Privacy-first architecture (faceless detection, only behavioral metrics).
+
+## Architecture Diagram (Text-Based)
+![image](https://github.com/user-attachments/assets/a458d154-6993-4db3-aef8-27849979cada)
 
 ## Use Cases
+In-Transport Alert: AI detects aggressive behavior → alerts central team + shows live feed.
 
+SOS Trigger: A woman presses panic button or gives a voice command → alert sent + bus stops at safe zone.
+
+Suspicious Object Detection: Identifies abandoned bags for bomb threat prevention.
+
+Night Mode: Increases AI alert sensitivity during low-passenger night routes.
+
+Integration with Police Station: Instant redirection of feed and alert to nearest police station.
 
 ## Technology Stack
+Edge Devices: NVIDIA Jetson Nano / Raspberry Pi with camera
 
+AI Models: OpenCV + YOLOv8 (for gesture recognition, object detection)
+
+Backend: Node.js / FastAPI
+
+Dashboard: React.js + Mapbox
+
+Notifications: Firebase Cloud Messaging, Twilio SMS
+
+Mobile App (Optional): Flutter
 
 ## Dependencies
+Pre-trained behavior detection models (OpenPose, ActionNet)
+
+Public transport integration support (hardware, access to routes)
+
+Edge computing devices
+
+Police/transport department API access for emergency routing
+
+High-speed mobile internet / 5G module for live feed
+
 
