@@ -50,7 +50,7 @@ Integration with city surveillance systems and police networks.
 
 Privacy-first architecture (faceless detection, only behavioral metrics).
 
-## Architecture Diagram (Text-Based)
+## Architecture Diagram:
 ![image](https://github.com/user-attachments/assets/a458d154-6993-4db3-aef8-27849979cada)
 
 ## Use Cases
@@ -88,4 +88,16 @@ Police/transport department API access for emergency routing
 
 High-speed mobile internet / 5G module for live feed
 
+## Expected Outcome
+A prototype system that:
 
+Detects and classifies threatening behavior in real time.
+
+Sends immediate alerts to the control center and police.
+
+Enhances women's confidence and security in public transport.
+
+Demonstrates scalable, privacy-compliant, edge-deployable AI.
+
+## Conclusion
+The SafeCommuteAI system provides a smart, AI-based solution to enhance women's safety in public transport. With real-time threat detection, emergency alerts, and privacy-aware features, it ensures quicker responses and safer journeys for all passengers.
